@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 10%
+    right: 25%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
+    right: 80%
 
 
 @keyframes float1
@@ -17,3 +17,150 @@
 
   100%
     transform: translateY(0px)
+
+
+.tarjeta.color-primario-c
+  background-color: $color-primario !important
+.tarjeta.color-secundario-c
+  background-color: $color-secundario !important
+.tarjeta.color-acento-contenido-c
+  background-color: $color-acento-contenido !important
+
+.tarjeta.color-primario,.cajon.color-primario,.cajon.color-primario-c
+  background-color: lighten($color-primario, 13%)
+
+.cajon.color-secundario,.cajon.color-secundario-c
+  background-color: lighten($color-secundario, 8%)
+
+.cajon.color-acento-contenido-c
+  background-color: lighten($color-acento-contenido, 12%)
+
+.tarjeta.color-acento-contenido
+  background-color: lighten($color-acento-contenido, 12%)
+
+.tarjeta.color-secundario,.cajon.color-secundario
+  background-color: lighten($color-secundario, 20%)
+  
+.tarjeta.color-white
+  background-color: $white
+
+.tarjeta.color-acento-botones
+  background-color: lighten($color-acento-botones, 50%)
+  h3,h2,h4,p,b
+    color: $black
+
+
+.tabla-b,.tabla-a
+  tr.cabecera-a
+    background-color: lighten($color-secundario, 12%)
+  .cabecera-b
+    background-color: lighten($color-secundario, 12%) !important
+
+.bloque-texto-d.color-primario::before
+  background-color: lighten($color-primario, 13%) !important
+
+.tarjeta--boton
+  background-color: #F1ECE6
+
+@media only screen and (width: 768px) 
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+  .ipad-b
+    .slyder-b__slyde
+      .row
+        margin-right: 5rem !important
+        width: 80%
+@media only screen and (width: 390px) 
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+  .ipad-b
+    .slyder-b__slyde
+      .row
+        margin-right: 5rem !important
+        width: 80%
+
+.lista-ol--cuadro__vineta
+  span
+    color: $black
+
+.acordion__activo
+  background-color: lighten($color-secundario, 25%) !important
+
+.acordion__accion__btn--a,.acordion__accion__btn--b,.slyder__btn,.slyder-a__btn--atrs,.slyder-a__btn--sigt
+  background-color: $color-acento-botones
+  i
+    color: $white
+
+.lista-ol--cuadro__vineta.custom
+  border-radius: 2em
+  padding: 1em
+  font-weight: bold
+@media (min-width: 992px)
+  .w-lg-50
+    width: 50%
+  .tarjeta-avatar-b .tarjeta.color-primario--borde
+    padding-left: 4%
+
+
+.img-infografica__card
+  width: 400px
+// .img-infografica__item
+//   width: 5.5%
+
+.tarjeta-numerada.color-acento-contenido
+  background-color: #F1ECE6
+
+  
+.titulo-herramientas 
+  padding: 1rem
+  background-color: $color-acento-contenido
+  color: $white
+  border-radius: 1.5rem 0.5rem
+
+.linea-tiempo-e:before
+  left: 15%
+.linea-tiempo-e__item__header
+  width: 15%
+.linea-tiempo-e__item__header
+  h3
+    margin-top: 1rem
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: $color-adicional-2
+
+.tarjetas-up
+  overflow: hidden
+  border-radius: 5px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 5px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -75%
+    @media (max-width: $bp-max-md)
+      bottom: -75%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: 0%
+      // @media (max-width: $bp-max-xl)
+      //   bottom: -15%
+      // @media (max-width: $bp-max-lg)
+      //   bottom: 0
+      // @media (max-width: $bp-max-md)
+      //   bottom: -30%
+      // @media (max-width: $bp-max-sm)
+      //   bottom: -20%
+      // @media (max-width: $bp-max-xs)
+      //   bottom: 0
+    i:first-child
+      display: none
+    i:last-child
+      display: block
