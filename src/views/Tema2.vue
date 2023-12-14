@@ -34,7 +34,7 @@
                 img(src='@/assets/curso/temas/tema2/tema2-2.svg', alt='')
             .col-md-10.col-12.text-start
               h4 La llegada del vehículo
-              p Se procederá a verificar la documentación, como tal la nota de remisión o albarán se debe comparar con la orden de compra, además de los documentos adicionales, como certificados de seguridad, manifiestos de carga y demás dependiendo las políticas de descarga de la empresa receptora. Así mismo, se debe verificar las características de transporte, por ejemplo, si la descarga corresponde a productos perecederos se debe validar que el vehículo cumpla con las condiciones de temperatura para que el producto no se haya deteriorado en el transporte.
+              p Se procederá a verificar la documentación, como tal la nota de remisión o albarán se debe comparar con la orden de compra, además de los documentos adicionales, como certificados de seguridad, manifiestos de carga y demás, dependiendo las políticas de descarga de la empresa receptora. Así mismo, se debe verificar las características de transporte, por ejemplo, si la descarga corresponde a productos perecederos, se debe validar que el vehículo cumpla con las condiciones de temperatura para que el producto no se haya deteriorado en el transporte.
           .row.justify-content-center.align-items-center(data-aos="fade-down")
             .col-md-10.col-12.mb-4.mb-md-0
               h4 Descarga
@@ -51,7 +51,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema2/cn_1.png' alt='')
           .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DBE5F3")
-            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
+            .title.d-flex.align-items-center.mb-lg-2.mb-md-5.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3(style="color:#134F9D")
                 i.fas.fa-caret-down.fa-2x.me-3(style="color:#134F9D")
@@ -62,7 +62,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema2/cn_2.png' alt='')
           .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DBE5F3")
-            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
+            .title.d-flex.align-items-center.mb-lg-2.mb-md-5.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3(style="color:#134F9D")
                 i.fas.fa-caret-down.fa-2x.me-3(style="color:#134F9D")
@@ -73,7 +73,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema2/cn_3.png' alt='')
           .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DBE5F3")
-            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
+            .title.d-flex.align-items-center.mb-lg-2.mb-md-5.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3(style="color:#134F9D")
                 i.fas.fa-caret-down.fa-2x.me-3(style="color:#134F9D")
@@ -84,7 +84,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema2/cn_4.png' alt='')
           .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DBE5F3")
-            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
+            .title.d-flex.align-items-center.mb-lg-2.mb-md-5.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3(style="color:#134F9D")
                 i.fas.fa-caret-down.fa-2x.me-3(style="color:#134F9D")
@@ -102,7 +102,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12.col-lg-10.mb-4
         .cajon.color-secundario.p-4.px-lg-5
-          p.mb-0 En este proceso de inspección de calidad se examinan las características técnicas del producto y sus materiales usando instrumentos de medición, laboratorios de ensayo y fichas técnicas de producto con el fin de validar si las expectativas en cuanto diseño y funcionalidad se cumplen.
+          p.mb-0 En este proceso de inspección de calidad se examinan las características técnicas del producto y sus materiales usando instrumentos de medición, laboratorios de ensayo y fichas técnicas de producto, con el fin de validar si las expectativas en cuanto diseño y funcionalidad se cumplen.
       .col-12.col-lg-10
         p Las características técnicas del producto generalmente están determinadas a través de estándares que se pueden evidenciar a través de las fichas o normas técnicas, estas como tal describen los atributos o variables de un producto. Los atributos son características o cualidades que generan alguna utilidad al consumidor, al momento de realizar la inspección se hace a través de la observación y juicio de una persona, está la deberá clasificar como buena o defectuosa. Por ejemplo, si se realiza la inspección de una pieza metálica o una prenda se podrá observar, si hay cambios de color, si tiene una forma simétrica, si el producto está limpio, si tiene una textura defectuosa, entre otras condiciones. 
     
@@ -113,10 +113,10 @@
       .col-md-7.col-12
         p Por otro lado, las variables de medición permiten representar el resultado en una cifra, por ejemplo, la medida del diámetro de un cilindro metálico utilizando un calibrador, así mismo, se podrán medir longitudes, peso, volumen, temperatura, resistencia del material e incluso el color con múltiples herramientas de medición. 
         .cajon.color-primario.p-4.px-lg-5.mb-3
-          p.mb-0 Las anomalías que se puedan presentar en la inspección deberán ser objeto de una devolución al proveedor, así mismo durante la revisión se clasifica y separa la mercancía para su posterior almacenamiento. En consecuencia, se diligenciará una hoja de control que permitirá el registro de cada una de las inconsistencias presentadas para enviarla al proveedor. 
+          p.mb-0 Las anomalías que se puedan presentar en la inspección deberán ser objeto de una devolución al proveedor, así mismo, durante la revisión se clasifica y separa la mercancía para su posterior almacenamiento. En consecuencia, se diligenciará una hoja de control que permitirá el registro de cada una de las inconsistencias presentadas para enviarla al proveedor. 
         p Si el producto es aprobado se liberará para ser ubicado en las estanterías del almacén, si es rechazado se debe trasladar a la zona de decisión, que básicamente se refiere a la ubicación para determinar la disposición de esta mercancía que puede ser: destrucción o devolución.
 
-    p.mb-5(data-aos="fade-down") Existen productos que son susceptibles de procesos de cuarentena, que no es más que la retención de la mercancía hasta su aprobación o rechazo para tener una disposición final. Estas mercancías tienen condiciones que pueden afectar la salud de las personas debido a los riesgos biológicos, adicionalmente si son para el consumo humano o animal ya que pueden generar enfermedades contagiosas. 
+    p.mb-5(data-aos="fade-down") Existen productos que son susceptibles de procesos de cuarentena, que no es más que la retención de la mercancía hasta su aprobación o rechazo para tener una disposición final. Estas mercancías tienen condiciones que pueden afectar la salud de las personas debido a los riesgos biológicos, adicionalmente si son para el consumo humano o animal, ya que pueden generar enfermedades contagiosas. 
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down-left")
       .bloque-texto-g__img(
@@ -128,7 +128,7 @@
           br
           | Un caso muy representativo son las vacunas contra el COVID 19 que tuvieron un proceso de cuarentena donde el INVIMA (Instituto Nacional de Vigilancia de Medicamentos y Alimentos) en Colombia, realizó la respectiva verificación para poder otorgar los permisos y liberaron las dosis a ser aplicadas en la población.
 
-    p.mb-5(data-aos="fade-down") Otros productos que son susceptibles de cuarentena son los productos y subproductos de origen animal que son importados y que son para el consumo humano y animal, como la carne de diferentes especies, lácteos. Adicional el material genético, materias primas de origen animal para elaboración de alimentos entre otros productos que generen algún tipo de riesgo. 
+    p.mb-5(data-aos="fade-down") Otros productos que son susceptibles de cuarentena son los productos y subproductos de origen animal que son importados y que son para el consumo humano y animal, como la carne de diferentes especies, lácteos. Adicional el material genético, materias primas de origen animal para elaboración de alimentos, entre otros productos que generen algún tipo de riesgo. 
 
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -163,13 +163,13 @@
         .col-12.col-lg-10
           p En este caso se tienen 8 elementos en total, sin embargo, este lote se divide en dos grupos de colores, verde y azul, donde se deberá seleccionar un tamaño de muestra de 2 elementos, es así, que se seleccionarán dos elementos al azar de cada grupo.
 
-    p.mb-3(data-aos="fade-down") Para realizar el control de calidad dentro de la organización de establecen planes de muestreo de los atributos y las variables que se decida validar en los productos, este plan define un procedimiento y criterios de decisión a la hora de verificar los productos, que facilitan la inspección del producto por parte del personal del área. 
-    p.mb-5(data-aos="fade-down") Adicional el plan define de qué manera se seleccionará el tamaño de la muestra, generalmente existen normas técnicas que facilitan este cálculo como la norma #[em Military Standard] 105E (MIL-STD-105E), que es un sistema de planes de muestreo desarrollado por el ejército de estados unidos y que usualmente es usado para el proceso de inspección de mercancía. 
+    p.mb-3(data-aos="fade-down") Para realizar el control de calidad dentro de la organización se establecen planes de muestreo de los atributos y las variables que se decida validar en los productos, este plan define un procedimiento y criterios de decisión a la hora de verificar los productos, que facilitan la inspección del producto por parte del personal del área. 
+    p.mb-5(data-aos="fade-down") Adicional el plan define de qué manera se seleccionará el tamaño de la muestra, generalmente existen normas técnicas que facilitan este cálculo, como la norma #[em Military Standard] 105E (MIL-STD-105E), que es un sistema de planes de muestreo desarrollado por el ejército de estados unidos y que usualmente es usado para el proceso de inspección de mercancía. 
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-12.col-lg-10.mb-4
         .cajon.color-primario.p-4.px-lg-5
-          p.mb-0 Debido a su gran aceptación fue adoptado por la ISO (#[em International Standardization Organization]) conocido como Organización Internacional de Estandarización, a través la norma ISO 2859, en la cual se estandarizan los procedimientos de muestreo para inspección de productos por atributos.
+          p.mb-0 Debido a su gran aceptación, fue adoptado por la ISO (#[em International Standardization Organization]) conocido como Organización Internacional de Estandarización, a través la norma ISO 2859, en la cual se estandarizan los procedimientos de muestreo para inspección de productos por atributos.
       .col-12.col-lg-10
         p Esta norma técnica facilita los acuerdos comerciales entre proveedor y cliente, ya que define el tamaño de la muestra dependiendo de los criterios de aceptación y rechazo de la mercancía, permitiendo que el proveedor pueda mejorar la calidad de sus productos y entregas, además pueda garantizar al cliente una entrega adecuada. 
 
@@ -297,7 +297,7 @@
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.5 Elementos de protección personal
 
-    p.mb-5(data-aos="fade-down") Dentro de los recursos necesarios para la recepción de pedidos se encuentran los elementos de protección personal, que son todos los aparatos o dispositivos fabricados para preservar la integridad del cuerpo humano, son necesarios para la recepción de mercancía ya que protegerán al trabajador de posibles accidentes al momento de realizar la operación de recepción y descarga de mercancía, para esta operación, se requiere principalmente, casco de seguridad, protección auditiva, gafas, tapabocas, chaleco reflectivo, guantes y botas de seguridad, que se detallan a continuación: 
+    p.mb-5(data-aos="fade-down") Dentro de los recursos necesarios para la recepción de pedidos se encuentran los elementos de protección personal, que son todos los aparatos o dispositivos fabricados para preservar la integridad del cuerpo humano, son necesarios para la recepción de mercancía, ya que protegerán al trabajador de posibles accidentes al momento de realizar la operación de recepción y descarga de mercancía, para esta operación, se requiere principalmente, casco de seguridad, protección auditiva, gafas, tapabocas, chaleco reflectivo, guantes y botas de seguridad, que se detallan a continuación: 
 
 
     .row.justify-content-center.mb-5(data-aos="fade-down-left")  
@@ -317,9 +317,9 @@
           .tarjeta.color-acento-botones.p-3(x="72%" y="40%" numero="+")
             p Los #[b tapabocas] son aquellos elementos con los cuales se protegen de posibles riesgos laborales generados por partículas que se encuentran en el aire, generadas por la manipulación del producto en la recepción. Dichas partículas generan daños en el sistema respiratorio de la persona, para lo cual según el producto a recibir se pueden utilizar máscaras protectoras en caso de ser un riesgo elevado o tapabocas para riesgos moderados, cuya finalidad es contar con un filtro que separe e impida el ingreso de las sustancias peligrosas a las fosas nasales del personal.
           .tarjeta.color-acento-botones.p-3(x="72%" y="64%" numero="+")
-            p Los #[b guantes] son útiles para la prevención de cortes, generados por la utilización de herramientas corto-punzantes ya sea para abrir los embalajes o dividir los productos, así mismo evitan la contaminación por ataques micobacterianos generados por manipulación de alimentos o químicos.
+            p Los #[b guantes] son útiles para la prevención de cortes, generados por la utilización de herramientas corto-punzantes, ya sea para abrir los embalajes o dividir los productos, así mismo evitan la contaminación por ataques micobacterianos generados por manipulación de alimentos o químicos.
           .tarjeta.color-acento-botones.p-3(x="72%" y="85.5%" numero="+")
-            p Las #[b botas] o calzado de seguridad protegerán a los trabajadores de golpes ocasionados por riesgos mecánicos y físicos causado por la manipulación de cargas, así mismo previenen caídas por deslizamiento de las personas, ya que cuentan con suelas adherentes y también existen aquellas botas impermeables que pueden prevenir ataques micobacterianos generados por plagas o condiciones húmedas.
+            p Las #[b botas] o calzado de seguridad protegerán a los trabajadores de golpes ocasionados por riesgos mecánicos y físicos causados por la manipulación de cargas, así mismo previenen caídas por deslizamiento de las personas, ya que cuentan con suelas adherentes y también existen aquellas botas impermeables que pueden prevenir ataques micobacterianos generados por plagas o condiciones húmedas.
         .d-block.d-md-none
           figure
             img(src='@/assets/curso/temas/tema2/info-1b.svg', alt='')

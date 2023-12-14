@@ -22,10 +22,10 @@
       .col-10.col-lg-5.mb-3.mb-lg-0
         img(src='@/assets/curso/temas/tema1/tema1-1.png', alt='')
       .col-12.col-lg-7
-        p Es importante gestionar adecuadamente la información de entrada de mercancías en la bodega ya que facilitará la trazabilidad de los productos desde su recepción hasta la entrega a clientes. Esta información generalmente física, permite clasificar, inspeccionar, disponer de la mercancía para su correcto almacenamiento y posterior despacho.
+        p Es importante gestionar adecuadamente la información de entrada de mercancías en la bodega, ya que facilitará la trazabilidad de los productos desde su recepción hasta la entrega a clientes. Esta información generalmente física, permite clasificar, inspeccionar, disponer de la mercancía para su correcto almacenamiento y posterior despacho.
         p.mb-0 Antes de que ingrese la mercancía a la bodega es importante validar el documento orden de compra, este es el medio oficial con el que el comprador solicita la mercancía al vendedor, deberá contener los datos de la información del pedido.
 
-    p.mb-5(data-aos="fade-down") En el momento de la entrega, es necesario que la persona que realiza la recepción del pedido contraste la orden de compra con otro documento, la nota de remisión o albarán, este es un documento mercantil que acredita la entrega de un producto y garantiza que la transacción del producto se ha llevado a cabo, sin embargo, no acredita el pago de la mercancía. Legalmente este documento servirá como prueba de que la transacción se llevó a cabo en caso de que exista morosidad por parte del cliente, ya que el personal que recibe, el que descarga y que transporta deberá firmar, sellar y anotar todas las incidencias observadas durante la entrega, luego de verificar y comparar con la orden de compra. Los datos que debe contener son:
+    p.mb-5(data-aos="fade-down") En el momento de la entrega, es necesario que la persona que realiza la recepción del pedido contraste la orden de compra con otro documento, la nota de remisión o albarán, este es un documento mercantil que acredita la entrega de un producto y garantiza que la transacción del producto se ha llevado a cabo, sin embargo, no acredita el pago de la mercancía. Legalmente, este documento servirá como prueba de que la transacción se llevó a cabo en caso de que exista morosidad por parte del cliente, ya que el personal que recibe, el que descarga y que transporta deberá firmar, sellar y anotar todas las incidencias observadas durante la entrega, luego de verificar y comparar con la orden de compra. Los datos que debe contener son:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-md-10.col-12.p-4.tarjeta.color-secundario 
@@ -56,8 +56,8 @@
                 span.icon ✔ 
                 | Observaciones de las incidencias. 
 
-    p.mb-3(data-aos="fade-down") En este caso la información se enfoca más a la descripción y las cantidades de la mercancía a recibir, junto con las observaciones que hacen referencia a las anomalías del estado de la mercancía encontradas en la validación del pedido.
-    p.mb-4(data-aos="fade-down") Por otro lado, también se debe validar el manifiesto de carga que es el documento que ampara el transporte de mercancías ante las distintas autoridades, cuando estas se movilizan en vehículos de servicio público, mediante contratación a través de empresas de transporte de carga legalmente constituidas y debidamente habilitadas por el Ministerio de Transporte. 
+    p.mb-3(data-aos="fade-down") En este caso, la información se enfoca más a la descripción y las cantidades de la mercancía a recibir, junto con las observaciones que hacen referencia a las anomalías del estado de la mercancía encontradas en la validación del pedido.
+    p.mb-4(data-aos="fade-down") Por otro lado, también se debe validar el manifiesto de carga, que es el documento que ampara el transporte de mercancías ante las distintas autoridades, cuando estas se movilizan en vehículos de servicio público, mediante contratación a través de empresas de transporte de carga legalmente constituidas y debidamente habilitadas por el Ministerio de Transporte. 
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down-left")
       .bloque-texto-g__img(
@@ -66,7 +66,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 En el caso de recepción de materiales peligrosos, por ejemplo: líquidos o sólidos inflamables, sustancias corrosivas, sustancias tóxicas o veneno, sustancias comburentes, gases explosivos, material radioactivo, entre otros, se debe portar la tarjeta de emergencia, que contiene la información básica sobre el material peligroso, identificación de peligros, protección personal, medidas de primeros auxilios, medidas para vertidos accidentales, estabilidad y reactividad.
 
-    p.mb-4(data-aos="fade-down") Por último, el documento que soporta el desarrollo de la transacción económica es la factura, la cual se expide por el vendedor al comprador. Según la DIAN (2022), hay facturas por talonario, por computador, de máquina registradora, y electrónica, para efectos de entrega y de acuerdo con las políticas de compra de las empresas este documento debe contener la información de costos, impuestos, descuentos, cantidades, descripciones de la mercancía y la información del comprador y vendedor principalmente. 
+    p.mb-4(data-aos="fade-down") Por último, el documento que soporta el desarrollo de la transacción económica es la factura, la cual se expide por el vendedor al comprador. Según la DIAN (2022), hay facturas por talonario, por computador, de máquina registradora, y electrónica, para efectos de entrega y de acuerdo con las políticas de compra de las empresas, este documento debe contener la información de costos, impuestos, descuentos, cantidades, descripciones de la mercancía y la información del comprador y vendedor principalmente. 
 
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -87,7 +87,7 @@
           .col-8.col-lg-6
             img(src='@/assets/curso/temas/tema1/carrucel-1b.svg' alt='')
         h4.text-center Mercancías nacionales
-        p Son aquellos productos procesados o remanufacturados en el país, teniendo en cuenta que se pueden usar materias primas nacionales o extranjeras pero que deben contar con su respectiva nacionalización.
+        p Son aquellos productos procesados o remanufacturados en el país, teniendo en cuenta que se pueden usar materias primas nacionales o extranjeras, pero que deben contar con su respectiva nacionalización.
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
           .col-8.col-lg-6
@@ -99,13 +99,13 @@
           .col-8.col-lg-6
             img(src='@/assets/curso/temas/tema1/carrucel-1d.svg' alt='')
         h4.text-center Animales vivos
-        p Su traslado depende del derecho aduanero, se debe realizar por medio permisos y garantía de conservación. 
+        p Su traslado depende del derecho aduanero, se debe realizar por medio de permisos y garantía de conservación. 
       .tarjeta.color-primario.p-4 
         .row.justify-content-center.mb-3
           .col-8.col-lg-6
             img(src='@/assets/curso/temas/tema1/carrucel-1e.svg' alt='')
         h4.text-center Mercancías valoradas
-        p Son aquellas que cuentan con distinta valoración, son productos costosos o asegurados por lo cual deben tener permisos y medidas de seguridad para ser trasladados.
+        p Son aquellas que cuentan con distinta valoración, son productos costosos o asegurados, por lo cual deben tener permisos y medidas de seguridad para ser trasladados.
       .tarjeta.color-primario.p-4 
         .row.justify-content-center.mb-3
           .col-8.col-lg-6
@@ -122,13 +122,13 @@
           figure
             img(src='@/assets/curso/temas/tema1/carrucel-2a.svg', alt='')
         .col-lg-10
-          p Cuando es mercancía perecedera, está contará con máximo 7 días de vida útil, lo que indica que se debe contar con lugares aptos con temperatura controlada para un almacenamiento temporal y distribución rápida, así mismo el transporte de estas mercancías debe contar con condiciones especiales para evitar el deterioro del producto, por ejemplo, productos alimenticios como frutas, verduras, lácteos, carnes y también productos cultivados, como flores y plantas.
+          p Cuando es mercancía perecedera, esta contará con máximo 7 días de vida útil, lo que indica que se debe contar con lugares aptos con temperatura controlada para un almacenamiento temporal y distribución rápida, así mismo el transporte de estas mercancías debe contar con condiciones especiales para evitar el deterioro del producto, por ejemplo, productos alimenticios como frutas, verduras, lácteos, carnes y también productos cultivados, como flores y plantas.
       .row(titulo="02" subtitulo="")
         .col-lg-2.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/tema1/carrucel-2b.svg', alt='')
         .col-lg-10
-          p Si se recibe mercancía no perecedera, esta contará con una vida útil más prolongada por lo tanto no necesitan refrigeración, como lo son productos enlatados, o los alimentos empacados como sopas, pastas, arroces, snacks, entre otros. 
+          p Si se recibe mercancía no perecedera, esta contará con una vida útil más prolongada, por lo tanto no necesitan refrigeración, como lo son productos enlatados, o los alimentos empacados como sopas, pastas, arroces, snacks, entre otros. 
       .row(titulo="03" subtitulo="")
         .col-lg-2.mb-4.mb-lg-0
           figure
@@ -146,7 +146,7 @@
           figure
             img(src='@/assets/curso/temas/tema1/carrucel-2e.svg', alt='')
         .col-lg-10
-          p Si se recibe mercancía de naturaleza peligrosa se debe contar con protocolos de seguridad ya que hay riesgos inminentes en la manipulación. Para esto se cuenta con una normativa especial NTC 1692, Norma Técnica Colombiana que hace referencia a la clasificación de mercancías peligrosas y orienta acerca del transporte, etiquetado, rotulado de mercancías y la NTC 4435, Norma Técnica Colombiana que orienta acerca de los riesgos, la manipulación y almacenamiento de este tipo de mercancías, generalmente estas mercancías son de origen químico o productos inflamables.
+          p Si se recibe mercancía de naturaleza peligrosa se debe contar con protocolos de seguridad, ya que hay riesgos inminentes en la manipulación. Para esto se cuenta con una normativa especial NTC 1692, Norma Técnica Colombiana que hace referencia a la clasificación de mercancías peligrosas y orienta acerca del transporte, etiquetado, rotulado de mercancías y la NTC 4435, Norma Técnica Colombiana que orienta acerca de los riesgos, la manipulación y almacenamiento de este tipo de mercancías, generalmente estas mercancías son de origen químico o productos inflamables.
       .row(titulo="06" subtitulo="")
         .col-lg-2.mb-4.mb-lg-0
           figure
@@ -221,7 +221,7 @@
         .cajon.color-secundario.p-4.px-lg-5
           p.mb-0 Un ejemplo concreto son los envíos locales, que por lo general son de 24 horas, donde los inventarios se reponen a diario y las cantidades son menores, también con los productos de venta de una página de internet, donde se sabe que su distribución es de manera local y en cantidades pequeñas, llegará al otro día, dependiendo de las políticas de entrega del proveedor.
 
-    p.mb-3(data-aos="fade-down") Para el caso de pedidos de mayoristas, donde las solicitudes comprenden grandes cantidades a lugares regionales e intermunicipales, el tiempo de ciclo oscila entre una semana. Por ejemplo, si se solicita una materia prima a una empresa ubicada en una ciudad a nivel nacional. Por otro lado, si los pedidos son mayoristas pero el lugar de donde proviene es internacional el tiempo de ciclo es aproximadamente de tres meses.
+    p.mb-3(data-aos="fade-down") Para el caso de pedidos de mayoristas, donde las solicitudes comprenden grandes cantidades a lugares regionales e intermunicipales, el tiempo de ciclo oscila entre una semana. Por ejemplo, si se solicita una materia prima a una empresa ubicada en una ciudad a nivel nacional. Por otro lado, si los pedidos son mayoristas, pero el lugar de donde proviene es internacional, el tiempo de ciclo es aproximadamente de tres meses.
     p.mb-5(data-aos="fade-down") Dentro de la planeación de los envíos se deberá establecer unos límites de tiempo acordados entre el cliente y el proveedor con el fin de conocer la fecha aproximada de entrega, ya que se acogerá como un compromiso y tendrá incidencias legales si se llega a incumplir. Tener en cuenta las fechas de entrega facilita al receptor de la mercancía la planeación y el alistamiento de los lugares y recursos necesarios para almacenar, así como también, la estipulación de horarios de atención del almacén y la rotación de entregas de los diferentes transportistas.
 
     .row.justify-content-center.mb-5(data-aos="fade-down")

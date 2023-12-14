@@ -226,7 +226,7 @@ export default {
   referencias: [
     {
       referencia:
-        'DIAN. (S.F). Preguntas frecuentes ¿Qué es una factura? Página <em>web</em> de la Dian. ',
+        'DIAN. (S.F). Preguntas frecuentes ¿Qué es la factura? Página <em>web</em> de la Dian. ',
       link:
         'https://www.dian.gov.co/impuestos/sociedades/Paginas/preguntasfrecuentes.aspx#:~:text=QU%C3%89%20ES%20LA%20FACTURA%3A,comprador%20o%20beneficiario%20del%20servicio.%E2%80%9D',
     },
