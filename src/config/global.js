@@ -150,8 +150,7 @@ export default {
     },
     {
       tema: '2.4 Pictogramas y normatividad',
-      referencia:
-        'Ministerio de Transporte. (2013). Portal de mercancías peligrosas.',
+      referencia: 'Ministerio de Transporte. (2013). Cartillas Conductores.',
       tipo: 'Cartillas',
       link:
         'https://web.mintransporte.gov.co/consultas/mercapeli/Cartillas%20Conductores/Cartillas%20Conductores.htm',
@@ -249,7 +248,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Transporte. (2013). Cartillas conductoras. Página <em>web</em> Ministerio de Transporte. ',
+        'Ministerio de Transporte. (2013). Cartillas Conductores. Página <em>web</em> Ministerio de Transporte. ',
       link:
         'https://web.mintransporte.gov.co/consultas/mercapeli/Cartillas%20Conductores/Cartillas%20Conductores.htm',
     },
